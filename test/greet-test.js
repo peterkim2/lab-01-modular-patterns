@@ -7,7 +7,7 @@ const assert = require('assert');
 describe('testing module greet', function(){
   it('should return hello peter', function(){
     assert.equal(greet('peter'), 'hello peter'); //if true do nothing, if false 
-    });
+  });
   it('should throw a missing name error', function(){
     assert.throws(function(){
       greet();
